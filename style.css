@@ -1,0 +1,170 @@
+body {
+ margin: 0;
+ height: 100vh;
+ font-family: Roboto, sans-serif ;
+ display: flex;
+ flex-direction: column;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 40px;
+}
+
+.right-links {
+    font-size: 24px ;
+    color: #F9FAF8;
+}
+
+.right-links a {
+    font-size: 24px;
+    color: white;
+}
+
+.leftlinks{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.links .leftlinks ul li a {
+    color: white;
+}
+
+.part2 {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text2 {
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+button {
+    font-family: Roboto, sans-serif;
+    border: white ;
+    border-radius: 25px;
+    background-color: #3882F6;
+    border-style: solid;
+    padding: 10px;
+}
+
+img {
+    width: 600px;
+}
+
+.items img {
+    width: 100px;
+    height: 100px;
+}
+
+h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.text2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+}
+
+.flex-container3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 90px;
+}
+
+.flex-container3 p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    display: flex;
+}
+
+
+.fc4 {
+    padding: 50px;
+}
+
+.flex-container4 {
+    background-color: #3882F6;
+    border-radius: 40px;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button2 {
+    border-radius: 25px;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-width: auto;
+    height: 20% ;
+    display: flex;
+    align-self: center;
+    padding: 8px;
+
+}
+
+.text4  h5 {
+    color: #F9FAF8;
+    font-size: x-large;
+    font-weight: 900;
+    margin: ;
+    padding-bottom: 0;
+}
+
+.text4  p {
+    color: #F9FAF8;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
